@@ -10,11 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet weak var xibView: XibView!
+    @IBAction func tappedBUtton(_ sender: UIButton) {
+        xibView.isHidden = !xibView.isHidden
     }
-
-
 }
 

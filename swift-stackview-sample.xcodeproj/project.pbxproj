@@ -12,6 +12,8 @@
 		88F23C76233E52E900C46435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F23C74233E52E900C46435 /* Main.storyboard */; };
 		88F23C78233E52ED00C46435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F23C77233E52ED00C46435 /* Assets.xcassets */; };
 		88F23C7B233E52ED00C46435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F23C79233E52ED00C46435 /* LaunchScreen.storyboard */; };
+		88F23C83233E533200C46435 /* XibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88F23C82233E533200C46435 /* XibView.xib */; };
+		88F23C85233E535100C46435 /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F23C84233E535100C46435 /* XibView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		88F23C77233E52ED00C46435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88F23C7A233E52ED00C46435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88F23C7C233E52ED00C46435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F23C82233E533200C46435 /* XibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibView.xib; sourceTree = "<group>"; };
+		88F23C84233E535100C46435 /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				88F23C77233E52ED00C46435 /* Assets.xcassets */,
 				88F23C79233E52ED00C46435 /* LaunchScreen.storyboard */,
 				88F23C7C233E52ED00C46435 /* Info.plist */,
+				88F23C82233E533200C46435 /* XibView.xib */,
+				88F23C84233E535100C46435 /* XibView.swift */,
 			);
 			path = "swift-stackview-sample";
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				88F23C7B233E52ED00C46435 /* LaunchScreen.storyboard in Resources */,
 				88F23C78233E52ED00C46435 /* Assets.xcassets in Resources */,
+				88F23C83233E533200C46435 /* XibView.xib in Resources */,
 				88F23C76233E52E900C46435 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88F23C73233E52E800C46435 /* ViewController.swift in Sources */,
+				88F23C85233E535100C46435 /* XibView.swift in Sources */,
 				88F23C71233E52E800C46435 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
