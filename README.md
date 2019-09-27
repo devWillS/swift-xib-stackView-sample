@@ -1,4 +1,4 @@
-# swift-stackView-sample
+# swift-xib-stackView-sample
 
 xib & UIStackViewを使用したトルツメのサンプル
 
